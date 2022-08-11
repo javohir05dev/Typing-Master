@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="./images/icons/icons.json">
+    <link rel="apple-touch-icon" href="images/icons/android/android-launchericon-72-72.png">
+    <link rel="apple-touch-icon" href="images/icons/android/android-launchericon-96-96.png">
+    <link rel="apple-touch-icon" href="images/icons/android/android-launchericon-144-144.png">
+    <link rel="apple-touch-icon" href="images/icons/android/android-launchericon-192-192.png">
+    <link rel="apple-touch-icon" href="images/icons/android/android-launchericon-512-512.png">
+    <meta name="theme-color" content="#0D1117">
+    <title>Tez Yoz</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>Typing speed</h2>
+        <div class="game">
+            <h2 id="word" style="text-align: center;"></h2>
+            <input type="text" id="input" placeholder="Typing word..." autofocus>
+            <p id="time-section">Qolgan vaqt <span id="time">60</span></p>
+            <p id="natija">Sizning natijangiz <span id="ball">0</span></p>
+        </div>
+
+        <div class="gameOver">
+            <h2>O'yin tugadi!</h2>
+            <p id="score"></p>
+            <div class="records">
+                <p style="font-family: monospace;">Eng yuqori natijangiz: <span id="high-record">0</span></p>
+            </div>
+            <button type="button" class="replay"><a href="index.html">Qayta boshlash</a></button>
+        </div>
+
+        <div class="author">
+            <p
+                style="font-size: 10px; font-family: monospace; color: #555; margin-bottom:-25px; margin-right: -10px; text-align: right;">
+                Javohir Development</p>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
